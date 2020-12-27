@@ -81,6 +81,10 @@ body{
 .ad-container button:focus{
   outline: 0;
 }
+.ad-container a{
+  text-decoration: none;
+  color: #fff;
+}
 /*===LEFT BOX STYLING ====*/
 .buy-rent-box h3{
   font-size: 15px;
