@@ -1,0 +1,53 @@
+@import "reset.css"; /* Using a string */
+@import "header_stylesheet.css"; /* Using a string */
+/*
+===================
+FONTS
+===================
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+body{
+  font-family: 'Roboto', sans-serif;
+}
+/*===========
+  NAV STYLING
+============*/
+.nav-container {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  opacity: 0.9;
+  background-color: #333;
+
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+
+  justify-content: center;
+  width: 100%;
+  padding: 10px 10px 0 10px;
+}
+.nav-container .logo-container img{
+  width: 400px;
+}
+.nav-bar{
+  background: #333;
+}
+.nav-bar ul li{
+  display: inline-block;
+  padding: 20px 25px;
+}
+.nav-bar ul li:hover{
+  background-color: #f5b540;
+}
+.nav-bar .menu-icons{
+  margin-right: 10px;
+}
+.nav-bar ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 3px;
+}

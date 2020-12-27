@@ -1,0 +1,44 @@
+/* ==== HEADER SECTION STYLING === */
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  position: relative;
+}
+.fullscreen-video-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+/*button{
+  border-radius: 50%;
+  border: none;
+  width: 100px;
+  height: 100px;
+  background-image: url("81O3jl9R9XL._RI_.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.btn-1:focus, .btn-1:active:focus, .btn-1.active:focus { outline: none; ! important; outline-style: none; }
+.left-col{
+  z-index: 30;
+}*/
+/* overlay for video*/
+header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+/* === END HEADER SECTION STYLING ===*/
