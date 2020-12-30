@@ -1,0 +1,42 @@
+/*===========
+  NAV STYLING
+============*/
+.nav-container{
+  position: relative;
+  top: 0;
+  z-index: 10;
+  /*opacity: 0.6;*/
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  width: auto;
+  padding: 10px 10px 0 10px;
+}
+.nav-container .logo-container img{
+  width: 400px;
+}
+.nav-bar{
+  /*background: black;*/
+}
+.nav-bar ul li{
+  display: inline-block;
+  padding: 20px 25px;
+  border-bottom: solid 2px transparent;
+}
+.nav-bar ul li:hover{
+  transition: 0.5s;
+  background-color: #e6a429;
+  border-bottom: solid 2px #db9107;
+}
+.nav-bar .menu-icons{
+  margin-right: 10px;
+}
+.nav-bar ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 3px;
+}

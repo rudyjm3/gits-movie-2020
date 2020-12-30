@@ -1,5 +1,7 @@
 @import "reset.css"; /* Using a string */
+@import "nav_stylesheet.css";
 @import "header_stylesheet.css"; /* Using a string */
+@import "synopsis_stylesheet.css";
 /*
 ===================
 FONTS
@@ -10,43 +12,42 @@ FONTS
 body{
   font-family: 'Roboto', sans-serif;
 }
+
 /*===========
-  NAV STYLING
+  HOME PAGE NAV STYLING
 ============*/
-.nav-container{
+.nav-container-hp{
   position: fixed;
   top: 0;
   z-index: 10;
-  /*opacity: 0.6;*/
   background-color: rgba(0,0,0,0.5);
-
   display: flex;
   flex-direction: column;
   align-items:center;
-
   justify-content: center;
   width: 100%;
   padding: 10px 10px 0 10px;
 }
-.nav-container .logo-container img{
+.nav-container-hp .logo-container-hp img{
   width: 400px;
 }
-.nav-bar{
+.nav-bar-hp{
   /*background: black;*/
 }
-.nav-bar ul li{
+.nav-bar-hp ul li{
   display: inline-block;
   padding: 20px 25px;
-  transition: 0.5s;
+  border-bottom: solid 2px transparent;
 }
-.nav-bar ul li:hover{
+.nav-bar-hp ul li:hover{
+  transition: 0.5s;
   background-color: #e6a429;
   border-bottom: solid 2px #db9107;
 }
-.nav-bar .menu-icons{
+.nav-bar-hp .menu-icons{
   margin-right: 10px;
 }
-.nav-bar ul li a{
+.nav-bar-hp ul li a{
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
@@ -141,6 +142,7 @@ body{
 ==============*/
 footer{
   position: fixed;
+  
   bottom: 0;
   display: flex;
   align-items:center;

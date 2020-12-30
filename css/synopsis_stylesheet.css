@@ -1,0 +1,81 @@
+section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("../images/GITS-Movie-2017/520981-Scarlett_Johansson-Ghost_in_the_Shell-Kusanagi_Motoko-Ghost_in_the_Shell_Movie.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*height: 100vh;*/
+  padding: 50px 0;
+}
+.title-logo-container img{
+  width: 200px;
+}
+.about-container{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  max-width: 60%;
+  min-width: 50%;
+  padding: 50px 25px;
+  background-color: black;
+  background-color: rgba(0,0,0,0.6);
+  border: 3px solid rgba(219, 145, 7, 0.7);
+  border-radius: 4px;
+  color: white;
+  line-height: 1.5;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(219,145,7,1);
+-moz-box-shadow: 0px 0px 30px 0px rgba(219,145,7,1);
+box-shadow: 0px 0px 30px 0px rgba(219,145,7,1);
+overflow: auto;
+}
+.about-container .movie-poster-box{
+  width: 100%;
+  text-align: center;
+}
+/*.about-container .movie-poster-box img{
+  width: 100%;
+  border: 2px solid white;
+}*/
+.purchase-box h3{
+  background-color: red;
+  padding: 5px 0;
+  width: auto;
+}
+.about-container .tab{
+  text-align: left;
+}
+/* ==== STYLING FOR STREAMING BUTTONS===*/
+.about-container .tabcontent ul{
+  align-items: center;
+}
+.about-container .tabcontent ul li{
+  display: inline-block;
+  list-style: none;
+  background: black;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e6a429;
+  margin: 0 5px;
+}
+.about-container .tabcontent ul li img{
+  width: 60px;
+  vertical-align: middle;
+}
+/*===START RIGHT SIDE STYLING==*/
+.about-container .about-content{
+  width: 100%;
+  padding: 0 25px;
+}
+.about-container .about-content span{
+  float: right;
+}
+.about-container .about-content tr{
+  text-align: left;
+}
+.about-container .about-content td{
+  padding-bottom: 10px;
+}
