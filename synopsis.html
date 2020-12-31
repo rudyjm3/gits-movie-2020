@@ -36,25 +36,46 @@
       <img src="images\logos\ghost-in-the-shell-logo-white.png" alt="">
     </div>
     <div class="about-container">
+    <!-- LEFT SIDE CONTENT ------>
       <div class="movie-poster-box">
-        <img src="images\GITS-Movie-2017\gits-movie-poster-org.jpg" alt="">
+        <img class="movie-poster" src="images\GITS-Movie-2017\gits-movie-poster-org.jpg" alt="">
         <div class="purchase-box">
-          <h3>Now on Digital, Blu-ray, and Streaming</h3>
+          <h3>Watch Options</h3>
           <div class="tab">
-            <button class="tablinks" onclick="">Digital</button>
-            <button class="tablinks" onclick="">4K Ultra HD</button>
-            <button class="tablinks" onclick="">Blu-ray</button>
+            <button class="tablinks active" onclick="watchOptions(event, 'Digital')">Digital</button>
+            <button class="tablinks" onclick="watchOptions(event, '4K-Ultra-HD')">4K Ultra HD™</button>
+            <button class="tablinks" onclick="watchOptions(event, 'Blu-ray')">Blu-ray™</button>
           </div>
-          <div id="Digital" class="tabcontent">
+          <div id="Digital" class="tabcontent" style="display: block;">
             <ul>
               <li><a href="#"><img src="images\logos\prime-video-logo-sm.png" alt=""></a></li>
               <li><a href="#"><img src="images\logos\Google-Play-Movies-tv-logo.png" alt=""></a></li>
               <li><a href="#"><img src="images\logos\youtube-logo-png-46020-cropped.png" alt=""></a></li>
               <li><a href="#"><img src="images\logos\vudu-logo.png" alt=""></a></li>
             </ul>
+            <p>*Purchases not made on this site.</p>
+          </div>
+          <div id="4K-Ultra-HD" class="tabcontent">
+            <ul>
+              <li><a href="#"><img class="best-buy-logo" src="images\logos\bestbuy-logo.png" alt=""></a></li>
+              <li><a href="#"><img src="images\logos\prime-video-logo-sm.png" alt=""></a></li>
+              <li><a href="#"><img src="images\logos\Google-Play-Movies-tv-logo.png" alt=""></a></li>
+              <li><a href="#"><img src="images\logos\vudu-logo.png" alt=""></a></li>
+            </ul>
+            <p>*Purchases not made on this site.</p>
+            <p>*For playback in 4K with HDR, you need a 4K UHD TV with HDR, and Ultra HD Blu-ray™ player and high-speed HDMI 2.0A cables.
+          </div>
+          <div id="Blu-ray" class="tabcontent">
+            <ul>
+              <li><a href="#"><img class="best-buy-logo" src="images\logos\bestbuy-logo.png" alt=""></a></li>
+              <li><a href="#"><img src="images\logos\amazon-png-sm.png" alt=""></a></li>
+              <li><a href="#"><img src="images\logos\vudu-logo.png" alt=""></a></li>
+            </ul>
+            <p>*Purchases not made on this site.</p>
           </div>
         </div>
       </div>
+    <!-- RIGHT SIDE CONTENT ------>
       <div class="about-content">
         <p>Theater release date: March 31, 2017(U.S.) | Sci Fi, Action, Adventure</p>
         <br>
@@ -136,8 +157,8 @@
   </footer>
   <!-- END FOOTER SECTION -->
 
-    <!-- Bootstrap core JavaScript -->
-    <script src=""></script>
+    <!-- JavaScript -->
+    <script src="js/watch-options.js"></script>
 
 </body>
 
