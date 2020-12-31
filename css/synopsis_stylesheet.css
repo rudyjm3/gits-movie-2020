@@ -1,13 +1,16 @@
+body{
+  background-image: url("../images/GITS-Movie-2017/700913-flipped.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 section{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-image: url("../images/GITS-Movie-2017/520981-Scarlett_Johansson-Ghost_in_the_Shell-Kusanagi_Motoko-Ghost_in_the_Shell_Movie.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  /*height: 100vh;*/
   padding: 50px 0;
 }
 .title-logo-container img{
@@ -21,11 +24,15 @@ section{
   min-width: 50%;
   padding: 50px 25px;
   background-color: rgba(34, 34, 34, 0.8);
+  background-image: url("../images/GITS-Movie-2017/bg_bggenerator_com (4).png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   border: 2px solid rgba(219, 145, 7, 0.7);
   border-radius: 8px;
   color: white;
   line-height: 1.5;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   -webkit-box-shadow: 0px 0px 30px 0px rgba(219,145,7,1);
 -moz-box-shadow: 0px 0px 30px 0px rgba(219,145,7,1);
 box-shadow: 0px 0px 30px 0px rgba(219,145,7,1);
