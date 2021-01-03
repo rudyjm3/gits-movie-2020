@@ -92,11 +92,11 @@ overflow: auto;
   display: none;
   padding: 20px 5px;
   background-color: rgba(34, 34, 34, 0.8);
-  animation: tabcontent ease 1s;
-  -webkit-animation: tabcontent ease 1s;
-  -moz-animation: tabcontent ease 1s;
-  -o-animation: tabcontent ease 1s;
-  -ms-animation: tabcontent ease 1s;
+  animation: tabcontent ease 0.5s;
+  -webkit-animation: tabcontent ease 0.5s;
+  -moz-animation: tabcontent ease 0.5s;
+  -o-animation: tabcontent ease 0.5s;
+  -ms-animation: tabcontent ease 0.5s;
 }
 @keyframes tabcontent {
   0% {opacity:0;}
