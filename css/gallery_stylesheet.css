@@ -1,0 +1,35 @@
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gallery{
+  max-width: 75%;
+  padding: 15px;
+  border: solid 2px grey;
+  margin-bottom: 60px;
+}
+.gallery h2{
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 3px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.pictures {
+  /*margin: auto;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+.pictures img {
+  transition: 1s;
+  padding: 5px;
+  width: 200px;
+}
+.pictures img:hover {
+  filter: brightness(50%);
+  transform: scale(1.1);
+}

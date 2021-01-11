@@ -2,6 +2,8 @@
 @import "nav_stylesheet.css";
 @import "header_stylesheet.css"; /* Using a string */
 @import "synopsis_stylesheet.css";
+@import "lightbox.min.css";
+@import "gallery_stylesheet.css";
 /*
 ===================
 FONTS
@@ -142,6 +144,8 @@ body{
 .ad-container .vr-options-box button:hover{
   background-color: #db9107;
 }
+
+
 /* =============
   FOOTER STYLING
 ==============*/
