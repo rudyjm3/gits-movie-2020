@@ -18,20 +18,20 @@
     <div class="logo-container">
       <img src="images\logos\ghost-in-the-shell-logo-white-cropped.png" alt="movie logo">
     </div>
-    <div class="nav-bar">
+    <div class="nav-bar" id="nav-box">
       <ul>
-        <li><a href="index.html"><span class="menu-icons"><i class="fas fa-home"></i></span>Home</a></li>
-        <li><a href="videos.html"><span class="menu-icons"><i class="fas fa-video"></i></span>Videos</a></li>
-        <li><a href="synopsis.html"><span class="menu-icons"><i class="fas fa-info-circle"></i></span>Synopsis</a></li>
-        <li><a href="gallery.html"><span class="menu-icons"><i class="fas fa-images"></i></span>Gallery</a></li>
-        <li><a href="film-and-tv.html"><span class="menu-icons"><i class="fas fa-film"></i></span>Film & TV</a></li>
-        <li><a href="#"><span class="menu-icons"><i class="fas fa-share-alt"></i></span>Share</a></li>
+        <li class="menu-item"><a href="index.html"><span class="menu-icons"><i class="fas fa-home"></i></span>Home</a></li>
+        <li class="menu-item"><a href="videos.html"><span class="menu-icons"><i class="fas fa-video"></i></span>Videos</a></li>
+        <li class="menu-item"><a href="synopsis.html"><span class="menu-icons"><i class="fas fa-info-circle"></i></span>Synopsis</a></li>
+        <li class="menu-item"><a href="gallery.html"><span class="menu-icons"><i class="fas fa-images"></i></span>Gallery</a></li>
+        <li class="menu-item"><a href="film-and-tv.html"><span class="menu-icons"><i class="fas fa-film"></i></span>Film & TV</a></li>
+        <li class="menu-item"><a href="#"><span class="menu-icons"><i class="fas fa-share-alt"></i></span>Share</a></li>
       </ul>
     </div>
   </nav>
 
 <!-- START MAIN CONTENT AREA -->
-  <section>
+  <section id="main-content">
     <div class="title-logo-container">
       <img src="images\logos\ghost-in-the-shell-logo-white.png" alt="">
     </div>
@@ -160,6 +160,21 @@
     <!-- JavaScript -->
     <script src="js/watch-options.js"></script>
 
+    <script>
+    let navBar = document.getElementById('nav-box');
+    let current = navBar.getElementsByClassName('menu-item');
+
+    for (var i = 0; i < current.length; i++) {
+      current[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName('active-link');
+
+        if (current.length > 0) {
+        current[0].className = current[0].className.replace("active-link", "");
+      }
+        this.className += " active-link";
+      });
+    }
+    </script>
 </body>
 
 </html>
