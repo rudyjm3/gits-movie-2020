@@ -28,3 +28,8 @@ overflow: auto;
   text-align: center;
   margin-bottom: 10px;
 }
+.video-container .video{
+
+  background-color: #333;
+  padding: 10px;
+}
