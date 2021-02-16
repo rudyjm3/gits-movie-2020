@@ -2,6 +2,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
   background-image: url("../images/GITS-Movie-2017/bgs/bg_gallery4.png");
 }
 .gallery{
