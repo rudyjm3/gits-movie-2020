@@ -10,26 +10,17 @@
 
   <link href="css/main-stylesheet.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
 </head>
 
 <body>
-  <!-- Navigation -->
-  <nav class="nav-container-hp">
-    <div class="logo-container-hp">
-      <img src="images\logos\ghost-in-the-shell-logo-white-cropped.png" alt="movie logo">
-    </div>
-    <div class="nav-bar-hp">
-      <ul>
-        <li class="active-link"><a href="index.html"><span class="menu-icons"><i class="fas fa-home"></i></span>Home</a></li>
-        <li><a href="videos.html"><span class="menu-icons"><i class="fas fa-video"></i></span>Videos</a></li>
-        <li><a href="synopsis.html"><span class="menu-icons"><i class="fas fa-info-circle"></i></span>Synopsis</a></li>
-        <li><a href="gallery.html"><span class="menu-icons"><i class="fas fa-images"></i></span>Gallery</a></li>
-        <li><a href="film-tv.html"><span class="menu-icons"><i class="fas fa-film"></i></span>Film & TV</a></li>
-        <li><a href="#"><span class="menu-icons"><i class="fas fa-share-alt"></i></span>Share</a></li>
-      </ul>
-    </div>
-  </nav>
+	<div id="nav-placeholder"></div>	
+	<script>
+    $.get("navigation.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+</script> 
+
 <!-- START HEADER SECTION --->
   <header>
     <video class="fullscreen-video-container"autoplay="autoplay" muted="muted" loop="loop"src="video/Viemo/Ghost in the Shell social media spots.mp4" type="video/mp4">
