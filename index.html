@@ -10,16 +10,18 @@
 
   <link href="css/main-stylesheet.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"> </script>
 </head>
 
 <body>
-	<div id="nav-placeholder"></div>	
-	<script>
+	<div id="nav-placeholder"></div>
+
+  <script>
     $.get("navigation.html", function(data){
         $("#nav-placeholder").replaceWith(data);
     });
-</script> 
+  </script>
 
 <!-- START HEADER SECTION --->
   <header>
@@ -70,8 +72,26 @@
   </footer>
 <!-- END FOOTER SECTION -->
 
-  <!-- Bootstrap core JavaScript -->
-  <script src=""></script>
+
+  <!-- Nav hightligh JavaScript -->
+  <script type="text/javascript">
+    $(document).on('click', 'ul li', function(){
+      $(this).addClass('active-link').siblings().removeClass('active-link')
+      console.log('onclick');
+    })
+  </script>
+  
+  <!-- <script type="text-javascript">
+    const currentLocation = location.href;
+    const menuItem = document.querySelectorAll('a');
+    const menuLength = menuItem.length
+    for (let i = 0; i<menuLength; i++){
+      if(menuItem[i].href === currentLocation){
+        menuItem[i].className = "active-link"
+      }
+    }
+  </script> -->
+
 
 </body>
 
