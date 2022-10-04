@@ -37,12 +37,13 @@ Used for trailer video and image gallery
 - [Uncharted game](https://www.playstation.com/en-us/uncharted/)
 
 ### Reference content: 
-(https://rewind.co/portfolio/ghost-in-the-shell-vr-experience/)
-(https://www.oculus.com/experiences/gear-vr/1150151301762838/)
-[Ghost in The Shell Wiki](https://ghostintheshell.fandom.com/wiki/Ghost_in_the_Shell_Wiki)
-[Ghost in The Shell Interface - google search](https://www.google.com/search?q=ghost+in+the+shell+interface&tbm=isch&ved=2ahUKEwiL9d2m0ajrAhVHgZ4KHeWjCGUQ2-cCegQIABAA&oq=ghost+in+the+shell+interface&gs_lcp=CgNpbWcQAzICCAAyBggAEAgQHjIGCAAQCBAeOgQIIxAnOgQIABAYUL7SAVj44gFg4-0BaABwAHgAgAGeAYgBuwqSAQMwLjmYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=edI9X8vUIseC-gTlx6KoBg&bih=696&biw=1316&rlz=1C2CHBF_enUS746US746)
-[Vimeo video](https://vimeo.com/147216124)
-[Ghost in The Shell social media spots - Vimeo](https://vimeo.com/211386323)
-[G.I.T.S. Instagram](https://www.instagram.com/ghostintheshell/)
-[G.I.T.S. Twitter](https://twitter.com/GhostInShell)
-[Florian Thamer - Freelance Motion Designer / CG Generalist](https://florianthamer.com/project/ghost-in-the-shell)
+- (https://rewind.co/portfolio/ghost-in-the-shell-vr-experience/)
+- (https://www.oculus.com/experiences/gear-vr/1150151301762838/)
+- [Ghost in The Shell Wiki](https://ghostintheshell.fandom.com/wiki/Ghost_in_the_Shell_Wiki)
+- [Ghost in The Shell Interface - google search](https://www.google.com/search?q=ghost+in+the+shell+interface&tbm=isch&ved=2ahUKEwiL9d2m0ajrAhVHgZ4KHeWjCGUQ2-cCegQIABAA&oq=ghost+in+the+shell+interface&gs_lcp=CgNpbWcQAzICCAAyBggAEAgQHjIGCAAQCBAeOgQIIxAnOgQIABAYUL7SAVj44gFg4-0BaABwAHgAgAGeAYgBuwqSAQMwLjmYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=edI9X8vUIseC-gTlx6KoBg&bih=696&biw=1316&rlz=1C2CHBF_enUS746US746)
+
+- [Vimeo video](https://vimeo.com/147216124)
+- [Ghost in The Shell social media spots - Vimeo](https://vimeo.com/211386323)
+- [G.I.T.S. Instagram](https://www.instagram.com/ghostintheshell/)
+- [G.I.T.S. Twitter](https://twitter.com/GhostInShell)
+- [Florian Thamer - Freelance Motion Designer / CG Generalist](https://florianthamer.com/project/ghost-in-the-shell)
